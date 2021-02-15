@@ -1,0 +1,75 @@
+1 - chalange 1 :
+		install the npm .
+		creat app.get .
+		add h1 to home.ejs .
+		render the home ejs file .
+
+2 - chalange 2 :
+		add <%= ejs var %> to the ejs file .
+		add a js object to the render function whish have the name of ejs var from the ejs file : and 		const from home page .
+
+3 - chalange 3 :
+		include the ejs header and footer files by <%- include("ejsfilename") -%>
+
+4 - chalange 4 :
+		change the dirction of the file of footer and header
+
+5 - chalange 5 :
+		creat get mehtod for evey ejs file .
+
+6 - chalange 6 :
+		change the href in the a tag .
+
+7 - chalange 7 :
+		creat app.get for Compose
+		add h1 and text input and submit button to Compose
+		rende the Compose ejs file .
+
+8 - chalange 8 :
+		get the text contain and print it by console.log(req.body.textFieldand) in the post method
+
+9 - chalange 9 :
+		get some form from bootstrap and edit on it for get what we want .
+
+10- chalange 10:
+11- chalange 11:
+		create a public empty array
+ name post
+		push on it our object post which we get it from compose page
+		redirect to the home page from post method of compose page
+		print the contact of posts by console log in		
+
+12- chalange 12:
+		add the posts to the pramater of the method render in post methos
+		print he contect of pists from the home.ejs file by <% console.log(posts) %>
+
+13- chalange 13:
+		print the all content of post in cosole.log form the ejs file in every addition one item
+
+14- chalange 14:
+		the same like chalange 13 only use another methode name forEach
+
+15- chalange 15:
+		print content of post on h1 and p tag usering the <% post.title %> and <% post.content %>
+
+16- chalange 16:
+
+
+17- chalange 17:
+		make a url with paramter anf get this parmater and chek if its exist on the posts list if yea 				print by console log that match found
+		use foreach loop for compare betwean req.params.parmaterName and post[i].posts
+
+18- chalange 18:		install the lodash by : npm i -g npm and npm i --save lodash
+		require lodash
+		use lodash for get the methos lowerCase
+		and use for compare the 2 variables from chalange 17
+
+19- chalange 19:
+		if the 2 variable are the same then make res.render for the posts ejs file with 2 paramater 				title and content
+		and transfer this 2 vars to the posts ejs file by <%= %> and print them there by h1 and p tag
+
+20- chalange 20:
+		go to the home.ejs file and add the ttitle method substring(0,99)
+
+21- chalange 21:
+
